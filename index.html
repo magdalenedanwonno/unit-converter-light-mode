@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Dark/Light Mode Switch</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+            <div id="container-top">
+                <h2>Metric/Imperial Unit Conversion</h2>
+                <input type="number" id="input-el" min="0" max="99999" onmousewheel="even.target.blur()">
+            
+                <p><button id="convert-btn">Convert</button></p>
+           </div>
+           
+        <div id="container-bottom">
+<div id="length-el" class="item">
+    <h3>Length (Meter / Feet)</h3>
+    <p class="result" id="length-result"></p>
+</div>
+
+<div id="volume-el" class="item">
+    <h3>Volume (Liters / Gallons)</h3>
+    <p class="result" id="volume-result"></p>
+</div>
+
+<div id="mass-el" class="item">
+    <h3>Mass (Kilograms / Pounds)</h3>
+    <p class="result" id="mass-result"></p>
+</div>
+
+            
+        </div> 
+        
+        <script src="index.js"></script>
+    </body>
+</html>
